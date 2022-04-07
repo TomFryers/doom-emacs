@@ -65,9 +65,9 @@ keybindings:
 After installing your preferred formatter, make sure to set
 =lsp-haskell-formatting-provider= to it.
 
-Make sure to configure the lsp to use your perfered formatter, e.g.:
+Make sure to configure the lsp to use your preferred formatter, e.g.:
 #+BEGIN_SRC elisp
 ;; ~/.doom.d/config.el
-(after!
+(after! haskell-mode
   (setq lsp-haskell-formatting-provider "brittany"))
 #+END_SRC
